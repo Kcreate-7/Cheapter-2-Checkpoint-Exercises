@@ -2,6 +2,7 @@
 //
 
 #include <iostream>
+using namespace std;
 
 int main()
 {
@@ -10,7 +11,21 @@ int main()
 	// Checkpoint 2.14
 	//Checkpoint 2.14
 
-	std::cout << "Hello World!\n";
+	char First, Middle, Last;
+
+	First = 'K';
+	cout << First << endl;
+	
+	Middle = 'P';
+	cout << Middle << endl;
+	
+	Last = 'B';
+	cout << Last << endl;
+
+	return 0;
+
+	
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
