@@ -2,14 +2,31 @@
 //
 
 #include <iostream>
+#include <string> // Required for the string class as in the notes
+using namespace std; 
+
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    string name, address, phoneNumber; // identifying the strings
+
+    name = "Kyle";
+    address = "4101 Washington Ave";
+    phoneNumber = "2813308004";
+
+
+    cout << "About Me:" << endl;
+    cout << "Name: " << name << endl;
+    cout << "Address: " << address << endl;
+    cout << "Phone Number: " << phoneNumber << endl;
+
+    
+    return 0;
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
+// Debug program: F5 or Debug > Start Debugging men
 
 // Tips for Getting Started: 
 //   1. Use the Solution Explorer window to add/manage files
