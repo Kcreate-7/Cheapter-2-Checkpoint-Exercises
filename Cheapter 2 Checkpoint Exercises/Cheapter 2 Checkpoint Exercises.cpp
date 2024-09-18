@@ -3,9 +3,21 @@
 
 #include <iostream>
 
+using namespace std;
+
 int main()
 {
-    std::cout << "Hello World!\n";
+
+    float weight;
+    int age;
+
+    weight = 2.10E2;
+    age = 26;
+
+    cout << "My age is " << age << " and my weight is " << weight << " pounds. \n";
+
+
+        return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
